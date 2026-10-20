@@ -1,7 +1,55 @@
-.body {
+/* Global styles */
+body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 2px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: #4d5ae5;
+  cursor: pointer;
+  color: #fff;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Base styles */
+
+.header {
+}
+.logo,
+.accent {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo {
+  color: #4d5ae5;
+}
+.accent {
+  color: #2e2f42;
 }
