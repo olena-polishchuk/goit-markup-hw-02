@@ -1,13 +1,8 @@
 .logo {
   color: #4d5ae5;
 }
-.accent {
+.accent-header {
   color: #2e2f42;
-}
-
-.main-nav {
-}
-.main-nav-list {
 }
 .main-nav-link {
   font-weight: 500;
@@ -16,11 +11,6 @@
 .main-nav-link:hover,
 .main-nav-link:focus {
   color: #404bbf;
-}
-
-.contacts {
-}
-.contacts-item {
 }
 .contacts-link:hover,
 .contacts-link:focus {
